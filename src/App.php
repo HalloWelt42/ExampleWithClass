@@ -28,7 +28,6 @@ class App
         ->setHight(172)
     ->setHobby(['coding','bike']);
     $ar = $marcel->getHobby();
-    $ar[] ='reading'; // nicht referenzierbar
 
 
     $persons[] = $marcel;
