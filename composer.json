@@ -1,0 +1,17 @@
+{
+    "name": "HalloWelt42/ewc",
+    "autoload": {
+        "psr-4": {
+            "EWC\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/HalloWelt42/TLib.git"
+        }
+    ],
+    "require": {
+        "HalloWelt42/tlib": "dev-master"
+    }
+}
