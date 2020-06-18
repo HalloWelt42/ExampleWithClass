@@ -16,7 +16,7 @@ class Person
   private $hobby;
 
   /**
-   * @return mixed
+   * @return string
    */
   public function getName()
   {
@@ -24,7 +24,7 @@ class Person
   }
 
   /**
-   * @param mixed $name
+   * @param string $name
    * @return Person
    */
   public function setName($name)
@@ -34,7 +34,7 @@ class Person
   }
 
   /**
-   * @return mixed
+   * @return int
    */
   public function getHight()
   {
@@ -42,7 +42,7 @@ class Person
   }
 
   /**
-   * @param mixed $hight
+   * @param int $hight
    * @return Person
    */
   public function setHight($hight)
@@ -88,5 +88,8 @@ class Person
   }
 
 
+  public function addHobby(){
+    $this->hobby[] = 'walk';
+  }
 
 }
