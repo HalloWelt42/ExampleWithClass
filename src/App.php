@@ -36,6 +36,7 @@ class App
     $marcel2 = clone $marcel;
     $marcel2->setHight(195);
     $marcel2->getEyeColor()->setR(10);
+    $marcel2->addHobby();
 
 
     $persons[] = $marcel2;
